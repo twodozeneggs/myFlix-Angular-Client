@@ -24,7 +24,7 @@ import { RouterModule, Routes } from '@angular/router';
 const appRoutes: Routes = [
   { path: 'welcome', component: WelcomePageComponent },
   { path: 'movies', component: MovieCardComponent},
-  {path: '', redirectTo: 'welcome', pathMatch: 'prefix'},
+  { path: '', redirectTo: 'welcome', pathMatch: 'prefix'},
 ];
 
 @NgModule({
@@ -41,6 +41,7 @@ const appRoutes: Routes = [
     AppRoutingModule,
     BrowserAnimationsModule,
     MatInputModule,
+    MatIconModule, 
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
